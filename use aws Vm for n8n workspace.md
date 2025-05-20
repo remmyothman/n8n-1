@@ -13,8 +13,8 @@ sudo yum update -y
 n8n requires Node.js to run. Install the LTS version of Node.js:
 
 ```bash
-curl -fsSL https://rpm.nodesource.com/setup_18.x | sudo bash -
-sudo yum install -y nodejs
+curl -fsSL https://rpm.nodesource.com/setup_22.x | sudo bash -
+sudo yum install -y nsolid
 ```
 
 Verify the installation of Node.js and npm:
